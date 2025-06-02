@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/signin"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
