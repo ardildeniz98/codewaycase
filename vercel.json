@@ -1,13 +1,11 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/signin"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/signin",
+      "permanent": true
     }
   ]
 }
+
 
